@@ -1,31 +1,6 @@
 public class NoSunshine 
 {
-   public static void main(String[] args) 
-   {
-      
-      
-      
-      
-      System.out.print("And ");
-      iknow2();
-      iknow2();
-      
-      
-      jump();
-      jump();
-      System.out.println("Hey, I ought to leave young thing alone");
-      System.out.println("But ain't no sunshine when she's gone, whoa-whoa");
-      aintnosunshine();
-      System.out.println("Only darkness every day");
-      jump();
-      aintnosunshine();
-      andthishouse();
-      jump();
-      anytime();
-      anytime();
-      anytime();
-      anytime();
-   }
+   
    
    public static void jump()
    {
@@ -44,15 +19,47 @@ public class NoSunshine
    {
       System.out.println("Ain't no sunshine when she's gone");
    }
-   public static void iknow1()
+   public static void verse3(String iknow, String iknow2)
    {
-      System.out.println("I know, ");
+      System.out.println("And " + iknow + iknow + iknow + iknow2
+                         + "\n" + iknow + iknow + iknow + iknow + iknow2
+                         + "\n" + iknow + iknow + iknow + iknow + iknow2
+                         + "\n" + iknow + iknow + iknow + iknow + iknow2
+                         + "\n" + iknow + iknow + iknow + iknow + iknow2
+                         + "\n" + iknow + iknow2
+                         );
    }
-   public static void iknow2()
+   
+   
+   
+   public static void main(String[] args) 
    {
-      System.out.print("I know, I know, ");
-   
-   
+      aintnosunshine();
+      System.out.println("It's not warm when she's away");
+      aintnosunshine();
+      System.out.println("And she's always gone too long");
+      anytime();
+      jump();
+      System.out.println("Wonder this time where she's gone");
+      System.out.println("Wonder if she's gone to stay");
+      aintnosunshine();
+      andthishouse();
+      anytime();
+      jump();
+      verse3("I know, ", "I know");
+      jump();
+      System.out.println("Hey, I ought to leave young thing alone");
+      System.out.println("But ain't no sunshine when she's gone, whoa-whoa");
+      aintnosunshine();
+      System.out.println("Only darkness every day");
+      jump();
+      aintnosunshine();
+      andthishouse();
+      jump();
+      anytime();
+      anytime();
+      anytime();
+      anytime();
    
    }
 }
