@@ -1,7 +1,5 @@
 public class NoSunshine 
 {
-   
-   
    public static void jump()
    {
       System.out.println("");
@@ -10,7 +8,6 @@ public class NoSunshine
    {
       System.out.println("Anytime she goes away");
    }
-   
    public static void andthishouse()
    {
       System.out.println("And this house just ain't no home");
@@ -26,12 +23,8 @@ public class NoSunshine
                          + "\n" + ik + ik + ik + ik + ik2
                          + "\n" + ik + ik + ik + ik + ik2
                          + "\n" + ik + ik + ik + ik + ik2
-                         + "\n" + ik + ik2
-                         );
+                         + "\n" + ik + ik2);
    }
-   
-   
-   
    public static void main(String[] args) 
    {
       aintnosunshine();
@@ -60,6 +53,5 @@ public class NoSunshine
       anytime();
       anytime();
       anytime();
-   
    }
 }
