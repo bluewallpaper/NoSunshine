@@ -19,14 +19,14 @@ public class NoSunshine
    {
       System.out.println("Ain't no sunshine when she's gone");
    }
-   public static void verse3(String iknow, String iknow2)
+   public static void verse3(String ik, String ik2)
    {
-      System.out.println("And " + iknow + iknow + iknow + iknow2
-                         + "\n" + iknow + iknow + iknow + iknow + iknow2
-                         + "\n" + iknow + iknow + iknow + iknow + iknow2
-                         + "\n" + iknow + iknow + iknow + iknow + iknow2
-                         + "\n" + iknow + iknow + iknow + iknow + iknow2
-                         + "\n" + iknow + iknow2
+      System.out.println("And " + ik + ik + ik + ik2
+                         + "\n" + ik + ik + ik + ik + ik2
+                         + "\n" + ik + ik + ik + ik + ik2
+                         + "\n" + ik + ik + ik + ik + ik2
+                         + "\n" + ik + ik + ik + ik + ik2
+                         + "\n" + ik + ik2
                          );
    }
    
